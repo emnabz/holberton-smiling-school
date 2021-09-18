@@ -68,7 +68,6 @@ button:active{
 	background-color: #C271FF;
 }
 
-
 .tut{
 	padding: 50px;
 	margin-bottom: 50px;
@@ -129,7 +128,7 @@ button:active{
 	margin: 0;
 	padding: 20px 100px;
 	background-color: rgb(0, 0, 0);
-	background-image: url(images/pic_2.jpg);
+	background-image: url(images/pic_22.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 }
@@ -149,13 +148,31 @@ button:active{
 }
 
 th,
-tr{
-	text-align: center; 
+.table-bordering tr{
+	text-align: center;
     vertical-align: middle;
+	border-bottom: 1px solid;
+	border-top: none;
+}
+.table-border {
+	border: none;
+	border-top: 0;
+}
+.faq{
+	padding: 100px 80px;
+	display: flex;
+	justify-content: center;
+	margin-left: 300px;
 }
 
-.faq{
-	padding: 100px 80px; 
+.space2{
+	margin-left: 50px;
+}
+.space4{
+	margin-left: 50px;
+}
+.space3, .space1 {
+	margin-right: 50px;
 }
 .light-text{
 	color: lightslategray;
@@ -164,17 +181,31 @@ tr{
 /* courses */
 .home_body_cours{
 	margin: 0;
-	padding: 20px 100px;
+	padding: 30px 100px;
 	background-color: rgb(0, 0, 0);
 	background-image: url(images/pic_3.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 }
-
+.header_text_cours{
+	font-family: Coiny;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+	margin-top: 50px;
+}
+.logo {
+	margin-top: 3rem;
+}
 /* cours */
 .fill{
 	background-color: #C271FF;
-	padding: 50px 50px;
+	padding: 100px 60px;
+	display: flex;
+	justify-content: space-around;
 }
 input[type=text] {
 	color: white;
@@ -182,17 +213,19 @@ input[type=text] {
 	border: 2px solid #ccc;
 	border-radius: 4px;
 	font-size: 16px;
-	background-image: url('images/loupe.png');
+	background-image: url('images/search.svg');
 	background-size: 20px;
-	background-position: 10px 3px;
+	background-position: 10px 7px;
 	background-repeat: no-repeat;
 	padding: 12px 20px 0px 40px;
 	background-color: #C271FF;
 	width: 100%;
 	height: 40px;
 }
+
 .fill-select{
 	color: white;
+	background: url('images/triangle-down.svg');
 	border: 2px solid #ccc;
 	border-radius: 4px;
 	font-size: 16px;
@@ -200,6 +233,7 @@ input[type=text] {
 	width: 100%;
 	display: block;
 	height: 40px;
+	-webkit-appearance: none;
 }
 .fill-cour{
 	padding: 40px;
@@ -219,7 +253,7 @@ input[type=text] {
 .fill-video-2{
 	z-index: 3;
 	width: 50px;
-	top: 3rem;
+	top: 4rem;
 	left: 7rem;
 }
 .fill-card-body{
